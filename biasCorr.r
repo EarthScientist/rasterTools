@@ -1,7 +1,7 @@
 # This function is built for bias correction
 # inputs are: 
 # brick/stack historical, brick/stack future, begin Index of historical clim period, end index of historical clim period, absolute=TRUE/FALSE *depending on if it is proportional or absolute anom*
-
+# TESTING
 biasCorr <- function(in.historical, in.future, climBegin.historical, climEnd.historical, climBegin.future, climEnd.future, absolute){
 	hist.sub <- subset(in.historical, climBegin.historical:climEnd.historical, drop=T)
 	hist.clim <- stack()
