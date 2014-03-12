@@ -32,7 +32,3 @@ calcAnom <- function(brickStack, subsetBegin, subsetEnd, absolute) {
 	print(paste("time diff: ",d.begin - d.end, sep=""))
 }
 
-
-
-
-
